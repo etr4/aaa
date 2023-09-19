@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        
+        *{
+            margin: 0; padding: 0;
+        }
+        body{
+            background-color: #f2f0f0;
+            font-family: "맑은 고딕";
+            font-size: 12px; color: #444;
+        }
+        ul{ list-style: none;}
+        /*clear:both 이전에 float:left
+        float: right설정 초기화*/
+        .clear{ clear: both;}
+        #logo{
+            padding: 30px 0 0 30px;
+            float:left;
+            /*로고영역은왼쪽으로띄움*/
+        }
+        #top_menu{
+            margin: 40px 10px 0 0;
+            float: right;
+        }
+        #top_menu li{display: inline;}
+        
+        #main_menu{
+            font-size: 12px; color: #fff;
+            background-color: #4e4c4d;
+            margin-top: 15px; padding: 12px;
+            text-align: center;
+        }
+        #main_menu li{
+            padding: 0 20px 0 20px;
+            display: inline;
+        }
+    
+    </style>
+</head>
+<body>
+ <!--html 주석문-->
+  <div id="logo">
+      <img src="img/1.png" alt="하단로고"
+      width="200" height="100">
+  </div>  
+  <ul id="top_menu">
+     <li>로그인ㅣ</li>
+     <li>회원가입ㅣ</li>
+     <li>마이페이지ㅣ</li>
+     <li>주문배송 조회ㅣ</li>
+     <li>장바구니ㅣ</li>
+     <li>이용안내ㅣ</li>
+     <li>고객센터ㅣ</li>
+  </ul>
+  <div class="clear"></div>
+  <ul id="main_menu">
+      <li>쇼핑몰 소개</li>
+      <li>상품 Q&amp;A</li>
+      <li>시안확인</li>
+      <li>고객갤러리</li>
+      <li>공지사항</li>
+  </ul>
+</body>
+</html>
